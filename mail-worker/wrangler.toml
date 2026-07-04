@@ -1,8 +1,11 @@
 name = "cloud-mail"
 main = "src/index.js"
 compatibility_date = "2025-06-04"
+workers_dev = false
 keep_vars = true
-
+routes = [
+  { pattern = "mail.rolexreissue.com", custom_domain = true }
+]
 [observability]
 enabled = true
 
